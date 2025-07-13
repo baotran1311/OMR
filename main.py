@@ -676,7 +676,7 @@ def drawCircleAnswer(chieurong, anchor, liscircle):
 
 if __name__ == '__main__':
     model = CNN_Model('weight.h5').build_model(rt=True)
-    img = cv2.imread('images/test2.jpg')
+    img = cv2.imread('images/test.jpg')
     print("chieu rong", img.shape[1], "chieu cao", img.shape[0])
     #CNN_Model().train()
     anchors = []
